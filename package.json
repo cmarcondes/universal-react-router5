@@ -1,0 +1,39 @@
+{
+  "name": "universal-react-router5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:server": "webpack --config webpack.config.js",
+    "build:cli": "webpack --config webpack.config.client.js",
+    "build": "rm -rf dist && yarn build:server && yarn build:cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmarcondes/universal-react-router5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmarcondes/universal-react-router5/issues"
+  },
+  "homepage": "https://github.com/cmarcondes/universal-react-router5#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-router5": "7.1.0",
+    "router5": "7.0.2",
+    "router5-plugin-browser": "7.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.6",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.7"
+  }
+}
