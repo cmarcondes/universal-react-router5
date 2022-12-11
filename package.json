@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/cmarcondes/universal-react-router5#readme",
   "dependencies": {
-    "express": "4.17.1",
+    "express": "4.17.3",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-router5": "7.1.0",
